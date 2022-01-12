@@ -2,7 +2,7 @@
   "name": "cryptoquare",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gabrielfrias96.github.io/criptoquare",
+  "homepage": "https://gabrielfrias96.github.io/CriptoQuare/",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
