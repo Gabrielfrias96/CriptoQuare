@@ -6,10 +6,11 @@ import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import LoginIcon from '@mui/icons-material/Login';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
-import './header.scss'
+import './burger.scss'
 
 export default function Burger() {
   const [state, setState] = React.useState({
@@ -29,31 +30,33 @@ export default function Burger() {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
+      sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 300,  }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+      <List sx={{backgroundColor:"#F2E527" , color: "#383838"}}>
+        {['Iniciar Sesion'].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+              <LoginIcon sx={{color:"#383838"}} />
             </ListItemIcon>
-            <ListItemText primary={text} />
+            <h3>Iniciar Sesion</h3>
           </ListItem>
         ))}
       </List>
       <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
+      <List sx={{backgroundColor:"#383838"}}>
+        
+        <ListItem button >
+          <ListItemIcon>
+            <LoginIcon sx={{color:"white"}}/>
+          </ListItemIcon>
+          <div className="btn_getStarted">
+              <p>Comenzar</p>
+          </div>
+        </ListItem>
+        
       </List>
     </Box>
   );
@@ -61,14 +64,14 @@ export default function Burger() {
   return (
     <div>
       
-        <React.Fragment key={"right"}>
-          <MenuIcon onClick={toggleDrawer("right", true)}>{"right"}</MenuIcon>
+        <React.Fragment key={"bottom"}>
+          <MenuIcon onClick={toggleDrawer("bottom", true)}>{"top"}</MenuIcon>
           <Drawer
-            anchor={"right"}
-            open={state["right"]}
-            onClose={toggleDrawer("right", false)}
+            anchor={"bottom"}
+            open={state["bottom"]}
+            onClose={toggleDrawer("bottom", false)}
           >
-            {list("right")}
+            {list("bottom")}
           </Drawer>
         </React.Fragment>
      
