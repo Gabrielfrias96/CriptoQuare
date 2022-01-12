@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cryptoquare/static/css/main.80ae588c.css",
+    "main.js": "/cryptoquare/static/js/main.9610cd1f.js",
+    "static/js/787.1a54290c.chunk.js": "/cryptoquare/static/js/787.1a54290c.chunk.js",
+    "static/media/machine.png": "/cryptoquare/static/media/machine.ce8c297e8c69e5d4d01e.png",
+    "static/media/fone.png": "/cryptoquare/static/media/fone.6d11e5b6b848a2b3f512.png",
+    "static/media/wallet.png": "/cryptoquare/static/media/wallet.bce65dcd98910a1cf554.png",
+    "index.html": "/cryptoquare/index.html",
+    "main.80ae588c.css.map": "/cryptoquare/static/css/main.80ae588c.css.map",
+    "main.9610cd1f.js.map": "/cryptoquare/static/js/main.9610cd1f.js.map",
+    "787.1a54290c.chunk.js.map": "/cryptoquare/static/js/787.1a54290c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80ae588c.css",
+    "static/js/main.9610cd1f.js"
+  ]
+}
