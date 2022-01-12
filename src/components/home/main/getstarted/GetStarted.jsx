@@ -1,7 +1,7 @@
 import React from 'react'
 import './getStarted.scss'
 import './mediaQuery.scss'
-import phone from './fone.png'
+import phone from '../../../../assets/fone.png'
 
 const GetStarted = () => {
     return (

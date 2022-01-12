@@ -20,7 +20,7 @@ const CardCripto = () => {
 
     setInterval(addData,2000)
   
-  }, [])
+  }, [coins])
 
 console.log(coins)
 

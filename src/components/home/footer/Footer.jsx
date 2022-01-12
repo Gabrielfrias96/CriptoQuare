@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.scss'
-import QR from './qr.png'
+import QR from '../../../assets/qr.png'
 
 const Footer = () => {
     return (

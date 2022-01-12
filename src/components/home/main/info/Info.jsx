@@ -1,6 +1,6 @@
 import React from 'react'
-import MachineL from './machine.png'
-import Wallet from './wallet.png'
+import MachineL from '../../../../assets/machine.png'
+import Wallet from '../../../../assets/wallet.png'
 import './info.scss'
 import './mediaQuery.scss'
 

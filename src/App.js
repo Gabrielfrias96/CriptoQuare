@@ -1,20 +1,18 @@
 
 import './index.css' 
-import Header from './components/header/Header'
-import Main from './components/main/Main'
+import HomeView from './components/home/HomeView'
 
 
 
 
 function App() {
-
+  
   
 
 
   return (
     <>
-    <Header/>
-    <Main/>
+    <HomeView/>
     </>
   );
 }
