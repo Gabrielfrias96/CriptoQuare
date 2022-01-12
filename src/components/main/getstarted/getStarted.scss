@@ -1,0 +1,38 @@
+.getStarted{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:start;
+    height:350px;
+    background-color: #F2E527;
+    padding: 50px 100px;
+    .box__getStarted{
+        width:50%;
+        
+        h1{
+            font-size: 3.2em;
+            color: #383838
+        }
+    }
+    .img__getStarted{
+        width:50%;
+        .img__phone{
+            width:500px;
+        }
+    }
+}
+
+.box__btnGet{
+    .btn__getStarted{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        cursor:pointer;
+        color: white;
+        height: 50px;
+        width:200px;
+        background-color:#383838;
+        border-radius: 25px;
+    }
+}
+

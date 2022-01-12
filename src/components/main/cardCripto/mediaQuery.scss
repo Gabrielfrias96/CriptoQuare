@@ -1,0 +1,98 @@
+@media (max-width:900px){
+    .boxCardCoin{
+        
+    
+        .card{
+            width: 150px;
+            height: 150px;
+    
+            .card__header {
+                padding: 10px;
+
+                .card__img{
+                    margin-right:5px;
+                    
+                    img{
+                        width:30px;
+                    }
+                }
+            
+                .card__text{
+                    font-size: 0.8em;
+            
+                    .card__symbol{
+                        text-transform:uppercase;
+                        color: grey;
+                        font-weight:500;
+                    }
+                }
+            }
+            
+            .card__body{
+                padding:10px;
+            
+                
+    
+                .negative{
+                    font-size:1.5em;
+                    
+                }
+            
+                .positive{
+                    font-size:1.5em;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px){
+    .boxCardCoin{
+        
+    
+        .card{
+            width: 250px;
+            height: 180px;
+            margin-bottom: 15px;
+    
+            .card__header {
+                padding: 10px;
+
+                .card__img{
+                    margin-right:5px;
+                    
+                    img{
+                        width:30px;
+                    }
+                }
+            
+                .card__text{
+                    font-size:1em;
+                    font-weight:400;
+            
+                    .card__symbol{
+                        text-transform:uppercase;
+                        color: grey;
+                        font-weight:200;
+                    }
+                }
+            }
+            
+            .card__body{
+            
+                
+    
+                .negative{
+                    font-size:2em;
+                    
+                }
+            
+                .positive{
+                    font-size:2em;
+                    
+                }
+            }
+        }
+    }
+}

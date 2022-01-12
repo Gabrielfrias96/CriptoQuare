@@ -1,0 +1,30 @@
+.footer{
+
+    background-color: #383838;
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    h2{
+        color: #F2E527;
+        margin-bottom:15px;
+    }
+
+    ul{
+        list-style: none;
+
+        li{
+            color: white;
+            text-decoration: underline;
+        }
+    }
+
+    .footer__title{
+        
+        img{
+            width:70px;
+        }
+    }
+
+    
+}

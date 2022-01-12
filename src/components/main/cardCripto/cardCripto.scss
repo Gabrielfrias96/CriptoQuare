@@ -1,0 +1,59 @@
+
+
+.boxCardCoin{
+    background: linear-gradient(to top, #fefefe 50%, #F2E527 50%);
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-bottom: 25px;
+
+    .card{
+
+
+        .card__header {
+            display: flex;
+            padding: 15px;
+            align-items: center;
+        
+            .card__img{
+                margin-right:10px;
+                img{
+                    width:50px;
+                }
+            }
+        
+            .card__text{
+                display:block;
+        
+                .card__symbol{
+                    text-transform:uppercase;
+                    color: grey;
+                    font-weight:500;
+                }
+            }
+        }
+        
+        .card__body{
+            display: flex;
+            justify-content:space-evenly;
+            align-items:center;
+            margin-bottom:15px;
+        
+            .arrow{
+                font-size:1em;
+            }
+        
+            .negative{
+                font-size:3rem;
+                font-weight: 700;
+                color: rgb(194, 69, 69);
+            }
+        
+            .positive{
+                font-size:3rem;
+                font-weight: 700;
+                color: rgb(77, 206, 65);
+            }
+        }
+    }
+}

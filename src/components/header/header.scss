@@ -1,0 +1,64 @@
+
+
+
+.header{
+    padding: 0px 100px;
+    height: 70px;
+    background-color:#383838;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        color: #F2E527;
+        font-weight: 700;
+    }
+
+    .box__hamburger{
+        color: #F2E527;
+        cursor:pointer;
+        display: none;
+    }
+
+    .box__btn{
+        display: flex;
+
+        .btn_signIn{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            span{
+                
+                cursor: pointer;
+                font-size: 1em;
+                font-weight: 500;
+                text-decoration: underline;
+                color: #F2E527
+            }
+        }
+
+        .btn_getStarted{
+           
+            
+           
+            
+            .spanGet{
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                font-weight: 500;
+                margin-left:50px;
+                cursor: pointer;
+                background-color: #F2E527;
+                width: 110px;
+                height:30px;
+                border-radius:20px;
+                color: 383838;
+            }
+
+            .spanGet:hover{
+                background-color: #e4d61c;
+                color: rgb(110, 102, 102);
+            }
+        }
+    }
+}
