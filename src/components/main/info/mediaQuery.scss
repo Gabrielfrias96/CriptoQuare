@@ -1,0 +1,139 @@
+@media (max-width:900px){
+    .box__info{
+        
+        .section__top{
+           
+            .section__top--img{
+                
+                img{
+                    width:200px;
+                }
+            }
+    
+            .section__top--text{
+                
+                
+                h2{
+                    font-size:2em;
+                }
+    
+    
+                span{
+                    font-size:1.2em;
+                }
+    
+                p{
+                    font-size:0.8em;
+                    font-weight: 100;
+                }
+            }
+        }
+    
+        .section__bottom{
+            padding: 0px 100px;
+            display: flex;
+    
+    
+            .section__bottom--text{
+                align-self: center;
+                width:50%;
+                text-align:start;
+                
+                h2{
+                    color: #383838;
+                    font-size:2em;
+                }
+    
+    
+                p{
+                    font-size:0.8em;
+                    font-weight: 300;
+                }
+    
+    
+    
+            }
+    
+            .section__bottom--img{
+                
+                width:50%;
+                img{
+                    width:250px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width:600px){
+    .box__info{
+        
+        .section__top{
+            display: block;
+            padding: 0px 40px;
+           
+            .section__top--img{
+                width:100%;
+                img{
+                    width:200px;
+                }
+            }
+    
+            .section__top--text{
+                width:100%;
+                text-align:end;
+                
+                h2{
+                    font-size:2em;
+                }
+    
+    
+                span{
+                    font-size:1.2em;
+                }
+    
+                p{
+                    font-size:0.8em;
+                    font-weight: 100;
+                }
+            }
+        }
+    
+        .section__bottom{
+            padding: 0px 100px;
+            display: block;
+            padding: 0px 40px;
+    
+    
+            .section__bottom--text{
+                width:100%;
+                text-align:start;
+                margin-bottom:25px;
+                
+                h2{
+                    color: #383838;
+                    font-size:2em;
+                }
+    
+    
+                p{
+                    font-size:0.8em;
+                    font-weight: 300;
+                }
+    
+    
+    
+            }
+    
+            .section__bottom--img{
+                
+                width:100%;
+                img{
+                    width:250px;
+                }
+            }
+        }
+    }
+    
+}

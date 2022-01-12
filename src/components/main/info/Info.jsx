@@ -2,6 +2,7 @@ import React from 'react'
 import MachineL from './machine.png'
 import Wallet from './wallet.png'
 import './info.scss'
+import './mediaQuery.scss'
 
 const Info = () => {
     return (

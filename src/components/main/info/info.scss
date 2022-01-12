@@ -17,9 +17,8 @@
         }
 
         .section__top--text{
-            align-self: center;
-            width:50%;
-            text-align:end;
+            width:100%;
+            text-align:center;
             
             h2{
                 color: #383838;
@@ -29,8 +28,7 @@
 
             span{
                 font-size:1.8em;
-                color:grey;
-                font-weight: 200;
+                
             }
 
             p{
@@ -46,9 +44,8 @@
 
 
         .section__bottom--text{
-            align-self: center;
             width:50%;
-            text-align:start;
+            text-align:center;
             
             h2{
                 color: #383838;
