@@ -12,7 +12,7 @@ const Info = () => {
                     <img src={MachineL} alt="Machine Learning" />
                 </div>
                 <div className="section__top--text">
-                    <span>Tecnologia</span>
+                    <span>Tecnología</span>
                     <h2>Machine Learning</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, consectetur animi reprehenderit officiis, minima voluptatibus excepturi tempora voluptate quam debitis numquam deleniti rem dignissimos maxime nemo. Itaque magni ex esse!</p>
                 </div>

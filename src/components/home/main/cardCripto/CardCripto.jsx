@@ -18,11 +18,9 @@ const CardCripto = () => {
         setCoins(data.data)
     }
 
-    setInterval(addData,2000)
   
-  }, [coins])
+  }, [])
 
-console.log(coins)
 
     return (
         <div className="boxCardCoin">

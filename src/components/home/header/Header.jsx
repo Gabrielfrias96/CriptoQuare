@@ -9,7 +9,7 @@ const Header = () => {
             <h2>CryptoQuare</h2>
             <div className="box__btn">
                 <div className="btn_signIn">
-                    <span>Iniciar Sesion</span>
+                    <span>Iniciar Sesión</span>
                 </div>
                 <div className="btn_getStarted">
                     <div className="spanGet">Comenzar</div>

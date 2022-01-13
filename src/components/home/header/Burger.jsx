@@ -41,7 +41,7 @@ export default function Burger() {
             <ListItemIcon>
               <LoginIcon sx={{color:"#383838"}} />
             </ListItemIcon>
-            <h3>Iniciar Sesion</h3>
+            <h3>Iniciar Sesión</h3>
           </ListItem>
         ))}
       </List>

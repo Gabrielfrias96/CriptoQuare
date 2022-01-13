@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="footer__info">
         <h2>Plataforma</h2>
             <ul>
-                <li>Teconologia</li>
+                <li>Tecnología</li>
                 <li>Machine Learning</li>
                 <li>Billetera</li>
 
