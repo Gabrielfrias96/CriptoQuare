@@ -18,6 +18,9 @@ const CardCripto = () => {
         setCoins(data.data)
     }
 
+    
+    addData()
+
   
   }, [])
 
