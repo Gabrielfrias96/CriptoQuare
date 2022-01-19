@@ -16,9 +16,9 @@ function App() {
 
     <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomeView/>}/>
-          <Route path="/login" element={<SignIn/>} />
-          <Route path="/register" element={<GetStarted/>} />
+          <Route path="/CriptoQuare/" element={<HomeView/>}/>
+          <Route path="/CriptoQuare/login" element={<SignIn/>} />
+          <Route path="/CriptoQuare/register" element={<GetStarted/>} />
         </Routes>
       </BrowserRouter> 
   );
