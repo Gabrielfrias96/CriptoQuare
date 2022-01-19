@@ -7,6 +7,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import LoginIcon from '@mui/icons-material/Login';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 import './burger.scss'
 
 export default function Burger() {
@@ -34,25 +35,28 @@ export default function Burger() {
     >
       <List sx={{backgroundColor:"#F2E527" , color: "#383838"}}>
         {['Iniciar Sesion'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              <LoginIcon sx={{color:"#383838"}} />
-            </ListItemIcon>
-            <h3>Iniciar Sesión</h3>
-          </ListItem>
+          <Link to="/login" style={{ textDecoration: 'none', color: "#383838"}}> 
+            <ListItem button key={text}>
+              <ListItemIcon>
+                <LoginIcon sx={{color:"#383838"}} />
+              </ListItemIcon>
+              <h3>Iniciar Sesión</h3> 
+            </ListItem>
+          </Link>
         ))}
       </List>
       <Divider />
       <List sx={{backgroundColor:"#383838"}}>
-        
-        <ListItem button >
-          <ListItemIcon>
-            <LoginIcon sx={{color:"white"}}/>
-          </ListItemIcon>
-          <div className="btn_getStarted">
-              <p>Comenzar</p>
-          </div>
-        </ListItem>
+        <Link to="/register" style={{textDecoration:"none", color:"#383838"}}>
+          <ListItem button >
+            <ListItemIcon>
+              <LoginIcon sx={{color:"white"}}/>
+            </ListItemIcon>
+            <div className="btn_getStarted">
+                <p>Comenzar</p>
+            </div>
+          </ListItem>
+        </Link>
         
       </List>
     </Box>

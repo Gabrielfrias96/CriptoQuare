@@ -34,7 +34,7 @@ const CardCripto = () => {
             alignItems="flex-start"
             >
             {coins.map(coin => (
-                <Grid item xs={12} sm={4}
+                <Grid key={coin.id} item xs={12} sm={4}
                 sx={{display:"flex", justifyContent: "center"}}
                 >
                 <Paper 

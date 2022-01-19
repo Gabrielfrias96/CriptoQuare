@@ -1,0 +1,18 @@
+@import "../../../styles/variables.scss";
+
+.form{
+    padding: 25px 100px;
+    height: 60vh;
+
+    h2{ 
+        color:$cool-gris;
+    }
+    p{
+        font-weight: 200;
+    }
+
+    .form__data{
+        margin-top: 25px;
+        width: 600px;
+    }
+}

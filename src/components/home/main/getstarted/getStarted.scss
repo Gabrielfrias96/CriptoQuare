@@ -1,16 +1,18 @@
+@import "../../../../styles/variables.scss";
+
 .getStarted{
     display: flex;
     justify-content:space-evenly;
     align-items:start;
     height:350px;
-    background-color: #F2E527;
+    background-color: $cool-amarillo;
     padding: 50px 100px;
     .box__getStarted{
         width:50%;
         
         h1{
             font-size: 3.2em;
-            color: #383838
+            color: $cool-gris;
         }
     }
     .img__getStarted{
@@ -28,10 +30,10 @@
         justify-content: space-evenly;
         align-items: center;
         cursor:pointer;
-        color: white;
+        color: $cool-blanco;
         height: 50px;
         width:200px;
-        background-color:#383838;
+        background-color:$cool-gris;
         border-radius: 25px;
     }
 }

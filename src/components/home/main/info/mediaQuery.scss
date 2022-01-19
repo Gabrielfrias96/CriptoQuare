@@ -1,3 +1,5 @@
+@import "../../../../styles/variables.scss";
+
 @media (max-width:900px){
     .box__info{
         
@@ -40,7 +42,7 @@
                 text-align:start;
                 
                 h2{
-                    color: #383838;
+                    color: $cool-gris;
                     font-size:2em;
                 }
     
@@ -112,7 +114,7 @@
                 margin-bottom:25px;
                 
                 h2{
-                    color: #383838;
+                    color: $cool-gris;
                     font-size:2em;
                 }
     

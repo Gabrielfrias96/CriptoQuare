@@ -1,7 +1,7 @@
-
+@import "../../../../styles/variables.scss";
 
 .boxCardCoin{
-    background: linear-gradient(to top, #fefefe 50%, #F2E527 50%);
+    background: linear-gradient(to top, #fefefe 50%, $cool-amarillo 50%);
     display:flex;
     justify-content:space-evenly;
     align-items:center;
