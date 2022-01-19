@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/CriptoQuare/static/css/main.70668c22.css",
-    "main.js": "/CriptoQuare/static/js/main.3b8d9965.js",
+    "main.js": "/CriptoQuare/static/js/main.b1407b27.js",
     "static/js/787.1a54290c.chunk.js": "/CriptoQuare/static/js/787.1a54290c.chunk.js",
     "static/media/machine.png": "/CriptoQuare/static/media/machine.ce8c297e8c69e5d4d01e.png",
     "static/media/fone.png": "/CriptoQuare/static/media/fone.6d11e5b6b848a2b3f512.png",
     "static/media/wallet.png": "/CriptoQuare/static/media/wallet.bce65dcd98910a1cf554.png",
     "index.html": "/CriptoQuare/index.html",
     "main.70668c22.css.map": "/CriptoQuare/static/css/main.70668c22.css.map",
-    "main.3b8d9965.js.map": "/CriptoQuare/static/js/main.3b8d9965.js.map",
+    "main.b1407b27.js.map": "/CriptoQuare/static/js/main.b1407b27.js.map",
     "787.1a54290c.chunk.js.map": "/CriptoQuare/static/js/787.1a54290c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70668c22.css",
-    "static/js/main.3b8d9965.js"
+    "static/js/main.b1407b27.js"
   ]
 }
