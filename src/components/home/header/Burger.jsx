@@ -35,7 +35,7 @@ export default function Burger() {
     >
       <List sx={{backgroundColor:"#F2E527" , color: "#383838"}}>
         {['Iniciar Sesion'].map((text, index) => (
-          <Link to="/login" style={{ textDecoration: 'none', color: "#383838"}}> 
+          <Link to="/CriptoQuare/login" style={{ textDecoration: 'none', color: "#383838"}}> 
             <ListItem button key={text}>
               <ListItemIcon>
                 <LoginIcon sx={{color:"#383838"}} />
@@ -47,7 +47,7 @@ export default function Burger() {
       </List>
       <Divider />
       <List sx={{backgroundColor:"#383838"}}>
-        <Link to="/register" style={{textDecoration:"none", color:"#383838"}}>
+        <Link to="/CriptoQuare/register" style={{textDecoration:"none", color:"#383838"}}>
           <ListItem button >
             <ListItemIcon>
               <LoginIcon sx={{color:"white"}}/>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './getStarted.scss'
 import './mediaQuery.scss'
 import phone from '../../../../assets/fone.png'
@@ -8,13 +9,13 @@ const GetStarted = () => {
         <div className="getStarted">
             <div className="box__getStarted">
                 <div className="box__encabezado">
-                    <h1>Empezá a sacar <br />
-                    Ganancias de <br />
-                    las Criptomonedas </h1>
+                    <h1>Redes Neuronales prediciendo el Mercado.</h1>
                 </div>
                 <div className="box__btnGet">
                     <div className="btn__getStarted">
-                        <h2>Comenzar</h2>
+                        <Link to="/CriptoQuare/register" style={{textDecoration:"none", color:"white"}}>
+                            <h2>Comenzar</h2>
+                        </Link>
                     </div>
                 </div>
             </div>

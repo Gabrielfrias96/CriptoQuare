@@ -1,4 +1,4 @@
-import React, {useState , useEffect} from 'react'
+/* import React, {useState , useEffect} from 'react'
 import { Paper , Box , Grid  } from '@mui/material'
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import axios from 'axios'
@@ -81,3 +81,5 @@ const CardCripto = () => {
 }
 
 export default CardCripto
+
+*/

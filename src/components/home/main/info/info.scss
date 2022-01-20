@@ -2,7 +2,7 @@
 
 
 .box__info{
-    margin: 100px 0px;
+    margin: 40px 0px;
 
     
     .section__top{
@@ -22,7 +22,10 @@
         .section__top--text{
             width:100%;
             text-align:center;
-            
+            align-self: center;
+            padding: 20px;
+
+
             h2{
                 color: $cool-gris;
                 font-size:2.5em;
@@ -49,6 +52,8 @@
         .section__bottom--text{
             width:50%;
             text-align:center;
+            align-self: center;
+            padding: 20px;
             
             h2{
                 color: $cool-gris;
