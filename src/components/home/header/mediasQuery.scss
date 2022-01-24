@@ -9,10 +9,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        h2{
-            color: $cool-amarillo;
-            font-weight: 700;
-        }
+        a img{
+            width: 200px;
+        }    
 
         .box__hamburger{
             display: flex;
@@ -68,6 +67,10 @@
 
     .header{
         padding: 0px 40px;
+
+        a img{
+            width: 150px;
+        }  
     }
 
 }

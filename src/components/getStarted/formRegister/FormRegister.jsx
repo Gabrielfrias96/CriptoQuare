@@ -1,4 +1,4 @@
-import { Grid, TextField , styled , Button} from '@mui/material'
+import { Divider, Box , Paper, TextField , styled , Button} from '@mui/material'
 import { yellow } from '@mui/material/colors'
 import React, {useState} from 'react'
 import './getstarted.scss'
@@ -38,35 +38,42 @@ const FormRegister = () => {
       }));
 
 
-    return (
-        <div className="form">
-            <div className="form__text">
-                <h2>Estas a unos paso de empezar en el mundo de las CriptoMonedas</h2>  
-                <p>Completa el Siguente formulario y comienza a ganar Dinero.</p>
-            </div>  
-            <div className="form__data">
-                <Grid container>
-                    <Grid item  spacing={3} md={6} mt={2}>
-                        <TextField style={{width:"280px"}} onChange={handleRegister} variant="outlined" label="Nombre" fullWidth name="name" />
-                    </Grid>
-                    <Grid item  spacing={3} md={6} mt={2}>
-                        <TextField style={{width:"280px"}}  onChange={handleRegister} variant="outlined" label="Apellido" name="lastname" />
-                    </Grid>
-                    <Grid item  spacing={3} md={6} mt={2}>
-                        <TextField style={{width:"280px"}}  onChange={handleRegister} variant="outlined" label="Nick" name="username" />
-                    </Grid>
-                    <Grid item  spacing={3} md={6} mt={2}>
-                        <TextField style={{width:"280px"}}  onChange={handleRegister} type="number" variant="outlined" label="Telefono" name="phone" />
-                    </Grid>
-                    <Grid item  spacing={3} md={12} mt={2}>
-                        <TextField fullWidth type="email" onChange={handleRegister} variant="outlined" label="Correo Electronico" name="email" />
-                    </Grid>
-                    <Grid item mt={3}>
-                        <ColorButton type='submit'>Registrar</ColorButton>
-                    </Grid>
-                </Grid>
-            </div>
-        </div>
+    return ( 
+        <Box
+        sx={{backgroundImage:"url: ./trading.jpeg" , width:"100%", height:"65vh", display:"flex", justifyContent:"center", alignItems:"center"}}>
+            <Paper
+            elevation={3}
+            sx={{width:"350px", height:"300px"}}>
+                <Divider 
+                sx={{marginTop:"20px"}}
+                >
+                    Registro
+                </Divider>
+                <Box
+                sx={{padding:"20px",}}>
+                    <Box sx={{marginBottom:"20px"}}>
+                        <TextField  label="Usuario o Email" variant="outlined" name="username" fullWidth onChange={handleRegister}  />
+                    </Box>
+                    <Box sx={{marginBottom:"20px"}}>
+                        <TextField  label="Usuario o Email" variant="outlined" name="username" fullWidth onChange={handleRegister}  />
+                    </Box>
+                    <Box>
+                        <TextField label="Contraseña" type="password" variant="outlined" name="password" mt={3} fullWidth onChange={handleRegister} />
+                    </Box>
+                    <Box
+                    sx={{marginTop:"30px"}}>
+                        <ColorButton type='submit'>Registrarme</ColorButton>
+                    </Box>
+                </Box>
+                
+
+
+
+            </Paper>
+
+
+
+        </Box>
     )
 }
 

@@ -15,7 +15,6 @@ const FormLogin = () => {
     const [login, setLogin] = useState(
         {   
             username:"",
-            email:"",
             password:""
         }
         );
@@ -47,7 +46,7 @@ const FormLogin = () => {
         sx={{backgroundImage:"url: ./trading.jpeg" , width:"100%", height:"65vh", display:"flex", justifyContent:"center", alignItems:"center"}}>
             <Paper
             elevation={3}
-            sx={{width:"350px", height:"350px"}}>
+            sx={{width:"350px", height:"300px"}}>
                 <Divider 
                 sx={{marginTop:"20px"}}
                 >
@@ -56,10 +55,7 @@ const FormLogin = () => {
                 <Box
                 sx={{padding:"20px",}}>
                     <Box sx={{marginBottom:"20px"}}>
-                        <TextField  label="Usuario" variant="outlined" name="username" fullWidth onChange={handleLogin}  />
-                    </Box>
-                    <Box sx={{marginBottom:"20px"}}>
-                        <TextField  label="Correo Electronico" variant="outlined" name="email" fullWidth onChange={handleLogin}  />
+                        <TextField  label="Usuario o Email" variant="outlined" name="username" fullWidth onChange={handleLogin}  />
                     </Box>
                     <Box>
                         <TextField label="Contraseña" type="password" variant="outlined" name="password" mt={3} fullWidth onChange={handleLogin} />

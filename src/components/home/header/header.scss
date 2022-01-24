@@ -8,9 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    a h2{
-        color: $cool-amarillo;
-        font-weight: 700;
+    a img{
+        align-self: center;
+        width: 300px;
     }
 
     .box__hamburger{
