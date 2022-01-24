@@ -43,7 +43,7 @@ const FormRegister = () => {
         sx={{backgroundImage:"url: ./trading.jpeg" , width:"100%", height:"65vh", display:"flex", justifyContent:"center", alignItems:"center"}}>
             <Paper
             elevation={3}
-            sx={{width:"350px", height:"300px"}}>
+            sx={{width:"350px", height:"350px"}}>
                 <Divider 
                 sx={{marginTop:"20px"}}
                 >
@@ -52,10 +52,10 @@ const FormRegister = () => {
                 <Box
                 sx={{padding:"20px",}}>
                     <Box sx={{marginBottom:"20px"}}>
-                        <TextField  label="Usuario o Email" variant="outlined" name="username" fullWidth onChange={handleRegister}  />
+                        <TextField  label="Usuario" variant="outlined" name="username" fullWidth onChange={handleRegister}  />
                     </Box>
                     <Box sx={{marginBottom:"20px"}}>
-                        <TextField  label="Usuario o Email" variant="outlined" name="username" fullWidth onChange={handleRegister}  />
+                        <TextField  label="Correo Electronico" variant="outlined" name="username" fullWidth onChange={handleRegister}  />
                     </Box>
                     <Box>
                         <TextField label="Contraseña" type="password" variant="outlined" name="password" mt={3} fullWidth onChange={handleRegister} />
