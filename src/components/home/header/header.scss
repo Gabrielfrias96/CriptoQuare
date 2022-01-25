@@ -3,14 +3,16 @@
 
 .header{
     padding: 0px 100px;
-    height: 70px;
+    height: 60px;
     background-color:$cool-gris;
     display: flex;
     justify-content: space-between;
     align-items: center;
     a img{
-        align-self: center;
-        width: 300px;
+        margin-top: 2px;
+        width: 250px;
+        image-rendering:optimizeQuality ;
+        object-fit: cover;
     }
 
     .box__hamburger{

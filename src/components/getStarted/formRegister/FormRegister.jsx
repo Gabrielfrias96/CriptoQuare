@@ -1,6 +1,7 @@
 import { Divider, Box , Paper, TextField , styled , Button} from '@mui/material'
 import { yellow } from '@mui/material/colors'
 import React, {useState} from 'react'
+import back from '../../../assets/background_blockchain.mp4'
 import './getstarted.scss'
 
 const FormRegister = () => {
@@ -40,8 +41,10 @@ const FormRegister = () => {
 
     return ( 
         <Box
-        sx={{backgroundImage:"url: ./trading.jpeg" , width:"100%", height:"65vh", display:"flex", justifyContent:"center", alignItems:"center"}}>
-            <Paper
+        className="container_register"
+        sx={{width:"100%", height:"65vh", display:"flex", justifyContent:"center", alignItems:"center"}}>
+           
+           <Paper
             elevation={3}
             sx={{width:"350px", height:"350px"}}>
                 <Divider 
