@@ -50,7 +50,7 @@ const FormLogin = () => {
                 <Divider 
                 sx={{marginTop:"20px"}}
                 >
-                    Iniciar Sesion
+                    Iniciar Sesioon
                 </Divider>
                 <Box
                 sx={{padding:"20px",}}>
