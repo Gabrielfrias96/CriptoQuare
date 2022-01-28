@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CriptoQuare/static/css/main.f496cfd8.css",
-    "main.js": "/CriptoQuare/static/js/main.f5c54531.js",
+    "main.js": "/CriptoQuare/static/js/main.6a168d5e.js",
     "static/js/787.1a54290c.chunk.js": "/CriptoQuare/static/js/787.1a54290c.chunk.js",
     "static/media/background_blockchain.mp4": "/CriptoQuare/static/media/background_blockchain.167508b3134d39566029.mp4",
     "static/media/machine.png": "/CriptoQuare/static/media/machine.ce8c297e8c69e5d4d01e.png",
@@ -11,11 +11,11 @@
     "static/media/cripto_logo_header.png": "/CriptoQuare/static/media/cripto_logo_header.6a2df1c8803c16d2daab.png",
     "index.html": "/CriptoQuare/index.html",
     "main.f496cfd8.css.map": "/CriptoQuare/static/css/main.f496cfd8.css.map",
-    "main.f5c54531.js.map": "/CriptoQuare/static/js/main.f5c54531.js.map",
+    "main.6a168d5e.js.map": "/CriptoQuare/static/js/main.6a168d5e.js.map",
     "787.1a54290c.chunk.js.map": "/CriptoQuare/static/js/787.1a54290c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f496cfd8.css",
-    "static/js/main.f5c54531.js"
+    "static/js/main.6a168d5e.js"
   ]
 }
