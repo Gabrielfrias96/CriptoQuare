@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CriptoQuare/static/css/main.a3caafb9.css",
-    "main.js": "/CriptoQuare/static/js/main.4dde609b.js",
+    "main.css": "/CriptoQuare/static/css/main.f496cfd8.css",
+    "main.js": "/CriptoQuare/static/js/main.f5c54531.js",
     "static/js/787.1a54290c.chunk.js": "/CriptoQuare/static/js/787.1a54290c.chunk.js",
     "static/media/background_blockchain.mp4": "/CriptoQuare/static/media/background_blockchain.167508b3134d39566029.mp4",
     "static/media/machine.png": "/CriptoQuare/static/media/machine.ce8c297e8c69e5d4d01e.png",
-    "static/media/cluster_logo.png": "/CriptoQuare/static/media/cluster_logo.2f4b7d69620a14c8220b.png",
     "static/media/fone.png": "/CriptoQuare/static/media/fone.6d11e5b6b848a2b3f512.png",
     "static/media/wallet.png": "/CriptoQuare/static/media/wallet.bce65dcd98910a1cf554.png",
     "static/media/cripto_logo.png": "/CriptoQuare/static/media/cripto_logo.b619cd7e34de03200ad8.png",
+    "static/media/cripto_logo_header.png": "/CriptoQuare/static/media/cripto_logo_header.6a2df1c8803c16d2daab.png",
     "index.html": "/CriptoQuare/index.html",
-    "main.a3caafb9.css.map": "/CriptoQuare/static/css/main.a3caafb9.css.map",
-    "main.4dde609b.js.map": "/CriptoQuare/static/js/main.4dde609b.js.map",
+    "main.f496cfd8.css.map": "/CriptoQuare/static/css/main.f496cfd8.css.map",
+    "main.f5c54531.js.map": "/CriptoQuare/static/js/main.f5c54531.js.map",
     "787.1a54290c.chunk.js.map": "/CriptoQuare/static/js/787.1a54290c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3caafb9.css",
-    "static/js/main.4dde609b.js"
+    "static/css/main.f496cfd8.css",
+    "static/js/main.f5c54531.js"
   ]
 }
