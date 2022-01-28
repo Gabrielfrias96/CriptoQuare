@@ -8,25 +8,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    h2{
-        color: $cool-amarillo;
-        margin-bottom:15px;
-    }
-
-    ul{
-        list-style: none;
-
-        li{
-            color: $cool-blanco;
-            text-decoration: underline;
-        }
-    }
+    
 
     .footer__title{
         
-        img{
-            width:70px;
+
+
+        .logo{
+            width:250px;
+            margin-bottom:10px;
         }
+
+        .qr{
+            width:100px;
+        }
+
     }
 
     
@@ -37,9 +33,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20x 0px;
+    padding:10px;
 
     img{
         width: 100px;
+        object-fit:cover;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.scss'
 import './mediasQuery.scss'
-import logo from '../../../assets/cripto_logo.png'
+import logo from '../../../assets/cripto_logo_header.png'
 import Burger from './Burger';
 import { Link } from 'react-router-dom';
 
